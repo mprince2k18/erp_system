@@ -1,0 +1,28 @@
+{
+    "name": "spondonit/biz-service",
+    "description": "'Service Provider for Infix Biz application'",
+    "type": "library",
+    "require": {
+        "spondonit/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spondonit",
+            "email": "support@spondonit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SpondonIt\\BizService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpondonIt\\BizService\\SpondonItBizServiceProvider"
+            ]
+        }
+    }
+}
